@@ -29,7 +29,7 @@ $(document).ready(function (){
         $(".ryu-throwing").hide();
         $(".ryu-ready").show();
          $("ul").show();
-	})
+	});
      
 });
 
@@ -59,17 +59,11 @@ $(document).keydown(function(keydown1){
  
  });
     
-$(document).keyup(function(){
-     	$(".ryu-cool").hide();
-     	$(".ryu-still").hide();
-      	$(".ryu-roundhouse").hide();
-        $(".ryu-ready").show();
-});
+
 
 function playRoundhouse () {
   $('#roundhouse-sound')[0].volume = 0.5;
   $('#roundhouse-sound')[0].load();
   $('#roundhouse-sound')[0].play();
 }
-
 
