@@ -56,7 +56,6 @@ $(document).keydown(function(keydown1){
      	$(".hadouken").hide();
         $(".ryu-roundhouse").show();
         }
- 
  });
     
 $(document).keyup(function(){
@@ -68,7 +67,6 @@ $(document).keyup(function(){
 
 function playRoundhouse () {
   $('#roundhouse-sound')[0].volume = 0.5;
-  $('#roundhouse-sound')[0].load();
   $('#roundhouse-sound')[0].play();
 }
 

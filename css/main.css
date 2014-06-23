@@ -21,11 +21,11 @@ li {font-weight: bold;
 
 .ryu {float: left;}
 
-.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse {height: 494px;
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {height: 494px;
 										width: 659px;}
 
 
-.ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse {display: none;}
+.ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {display: none;}
 
 .ryu-ready {background-image: url(file:///C:/Users/Alex/Documents/GitHub/jquery-streetfighter/images/ryu-ready-position.gif);}
 
@@ -39,7 +39,10 @@ li {font-weight: bold;
 .ryu-roundhouse {background-image: url(file:///C:/Users/Alex/Documents/GitHub/jquery-streetfighter/images/ryu_hd_tatsumaki_senpukyaku_by_juniorbunny-d5bui4g.gif);
 				background-size: 659px 494px;}
 
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .ryu-roundhouse {background-repeat: no-repeat;} 
+.ryu-shoryugen {background-image: url(file:///C:/Users/Alex/Documents/GitHub/jquery-streetfighter/images/ryu_hd_shoryuken_by_juniorbunny-d5buh4k.gif);
+				}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {background-repeat: no-repeat;} 
 
 .hadouken {background-image: url(file:///C:/Users/Alex/Documents/GitHub/jquery-streetfighter/images/hadouken.gif);
             width: 156px;
