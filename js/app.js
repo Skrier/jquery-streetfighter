@@ -56,12 +56,23 @@ $(document).keydown(function(keydown1){
      	$(".hadouken").hide();
         $(".ryu-roundhouse").show();
         }
+    else if (keydown1.keyCode == 67){
+        playShoryugen();
+        $(".ryu-still").hide();
+        $(".ryu-ready").hide();
+        $(".ryu-throwing").hide();
+        $(".ryu-cool").hide();
+        $(".hadouken").hide();
+        $(".ryu-roundhouse").hide();
+        $(".ryu-shoryugen").show();
+        }
  });
     
 $(document).keyup(function(){
      	$(".ryu-cool").hide();
      	$(".ryu-still").hide();
       	$(".ryu-roundhouse").hide();
+        $(".ryu-shoryugen").hide();
         $(".ryu-ready").show();
 });
 
@@ -70,4 +81,7 @@ function playRoundhouse () {
   $('#roundhouse-sound')[0].play();
 }
 
-
+function playShoryugen () {
+  $('#shoryugen-sound')[0].volume = 0.5;
+  $('#shoryugen-sound')[0].play();
+}
