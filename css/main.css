@@ -16,15 +16,17 @@ li {font-weight: bold;
   		margin-top: 5px;
   		padding-left: 100px;
   		min-width: 1200px;
-  		height: 500px;
+  		height:500px;
 		}
 
 .ryu {float: left;
-		}
+	max-height: 1000px;}
 
-.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {height: 494px;
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse {height: 494px;
 										width: 659px;}
 
+.ryu-shoryugen {height:494px;
+				width: 659px;}
 
 .ryu-ready, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {display: none;}
 
@@ -40,7 +42,7 @@ li {font-weight: bold;
 .ryu-roundhouse {background-image: url(../images/ryu_hd_tatsumaki_senpukyaku_by_juniorbunny-d5bui4g.gif);
 				background-size: 659px 494px;}
 
-.ryu-shroyugen {background-image: url(../images/ryu_hd_shoryuken_by_juniorbunny-d5buh4k.gif);
+.ryu-shoryugen {background-image: url(../images/ryu_hd_shoryuken_by_juniorbunny-d5buh4k.gif);
 				background-size:659px 494px;}
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .ryu-roundhouse, .ryu-shoryugen {background-repeat: no-repeat;} 
