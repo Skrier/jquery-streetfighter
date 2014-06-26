@@ -58,7 +58,6 @@ $(document).keydown(function(keydown1){
         }
     else if (keydown1.keyCode == 67){
         playShoryugen();
-        $("ul").hide();
         $(".ryu-still").hide();
         $(".ryu-ready").hide();
         $(".ryu-throwing").hide();
